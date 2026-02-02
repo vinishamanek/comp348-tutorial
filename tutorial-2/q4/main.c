@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "sum.c"
+#include "sum.h"
 
 int main() {
     int a = 4;

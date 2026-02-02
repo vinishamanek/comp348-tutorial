@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "sum.c"
 
-static int sum(int, int);
+int add(int a, int b);
+
+int p = 100; // global
 
 int main() {
-    int a = 4;
+    int a = 50;
     int b = 5;
-    printf("%d\n", sum(a, b));
+    printf("%d\n", add(a, b));
     return 0;
 }
