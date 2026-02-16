@@ -19,11 +19,11 @@ int main() {
     printf("\n");
 
     // change value again
-    // *ptr = 9999999999999999; 
-    // printf("after *ptr = 9999999999999999:\n");
-    // printf("number is now: %d\n", number);
-    // printf("value stored in ptr: %p\n", (void*)ptr);
-    // printf("\n");
+    *ptr = (int) 9999999999999999; 
+    printf("after *ptr = 9999999999999999:\n");
+    printf("number is now: %d\n", number);
+    printf("value stored in ptr: %p\n", (void*)ptr);
+    printf("\n");
 
     return 0;
 }
