@@ -14,7 +14,6 @@ int main() {
     arr1[2] = 30;
     printf("malloc after setting values: [%d, %d, %d]\n\n", arr1[0], arr1[1], arr1[2]);
     
-    
     printf("\n");
 
     // calloc 
@@ -36,7 +35,7 @@ int main() {
     printf("new address: %p\n", arr3);
     printf("after realloc: [%d, %d, %d, %d, %d]\n\n", arr3[0], arr3[1], arr3[2], arr3[3], arr3[4]);
     
-    free(arr1);
+    // free(arr1);
     free(arr2);
     free(arr3);
     
